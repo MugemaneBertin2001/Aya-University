@@ -1,4 +1,5 @@
-"# Aya-University" 
+<<<<<<< HEAD
+# Aya-University 
 A smart contract is a self-executing computer program that runs on a blockchain platform, typically using a programming language like Solidity for Ethereum or similar languages for other blockchains. It is a fundamental concept in blockchain technology and enables automation and trust in various decentralized applications (dApps).
 
 Here are the key concepts of a smart contract:
@@ -29,3 +30,6 @@ Smart contracts have numerous real-world applications across various industries,
 - Real estate: Automated and secure property transfer and rental agreements.
 
 Overall, smart contracts play a pivotal role in the growth and development of decentralized applications and contribute significantly to the adoption of blockchain technology in various sectors.
+=======
+# Aya-University
+>>>>>>> 9d1b9960479aa8f69bf667824a064879febc7aef
