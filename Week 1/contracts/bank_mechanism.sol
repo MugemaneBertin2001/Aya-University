@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.16;
 
 contract Bank {
     mapping(address => uint256) private balances;
@@ -24,7 +24,7 @@ contract Bank {
 
     function withdraw(uint256 amount) external hasSufficientFunds(amount) {
         balances[msg.sender] -= amount;
-        payable(msg.sender).transfer(amount);
+        // payable(msg.sender).transfer(amount);
         emit Withdraw(msg.sender, amount);
     }
 

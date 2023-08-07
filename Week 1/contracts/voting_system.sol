@@ -1,7 +1,8 @@
 // Simple Voting System in Solidity
 
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.16;
+pragma experimental ABIEncoderV2;
 
 contract VotingSystem {
     // Structure to store candidate details
@@ -20,7 +21,7 @@ contract VotingSystem {
     mapping(address => string) public votes;
 
     // Constructor to add candidates during contract deployment
-    constructor(string[] memory candidateNames) {
+    constructor(string[] memory candidateNames) public {
         for (uint256 i = 0; i < candidateNames.length; i++) {
             addCandidate(candidateNames[i]);
         }
