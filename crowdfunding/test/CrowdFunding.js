@@ -6,7 +6,7 @@ describe("Crowdfunding Contract", function () {
   before(async function () {
     const Crowdfunding = await ethers.getContractFactory("Crowdfunding");
     crowdfunding = await Crowdfunding.deploy(1000, 7);
-    await crowdfunding.deployed();
+    // await crowdfunding.deploy();
   });
 
   it("Should set the owner and goal", async function () {

@@ -1,8 +1,8 @@
-## CrowdFunding
+# CrowdFunding
 
 Certainly! Here's a more detailed README file that you can use for your crowdfunding smart contract project on GitHub:
 
-```markdown
+<!-- ```markdown -->
 # Crowdfunding Smart Contract using Hardhat
 
 This project demonstrates a basic crowdfunding smart contract built using Solidity and tested using Hardhat's development environment.
@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Note**: This project is intended for educational and demonstration purposes. Make sure to thoroughly review and test the code before deploying it on a live network.
-```
+
 
 Replace `<repository_url>` and `<deployed_contract_address>` with the actual URL of your project's repository and the deployed contract address, respectively.
 
